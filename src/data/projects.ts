@@ -1,0 +1,75 @@
+import type { Project } from '../types';
+
+export const projects: Project[] = [
+  {
+    id: 'llm-orchestrator',
+    title: 'LLM Orchestrator',
+    description:
+      'A unified API gateway routing requests between Groq, OpenAI, and Gemini with ensemble intelligence and circuit breakers.',
+    category: 'backend',
+    techStack: ['FastAPI', 'Python', 'Asyncio', 'Redis'],
+    repoUrl: 'https://github.com/ui-commits/llm-agent',
+    status: 'live',
+    featured: true,
+  },
+  {
+    id: 'portfolio-simulator',
+    title: 'AI Portfolio Risk Simulator',
+    description:
+      'Interactive dashboard that stress-tests AI investment portfolios against geopolitical scenarios with dense, real-time analytics.',
+    category: 'webtool',
+    techStack: ['Next.js 15', 'Zustand', 'Recharts'],
+    imageUrl: '/assets/projects/simulator.webp',
+    status: 'live',
+    featured: true,
+  },
+  {
+    id: 'croda-consulting',
+    title: 'CRODA Consulting',
+    description: 'Brutalist storefront for high-performance SMB web services and AI integration.',
+    category: 'professional',
+    techStack: ['React', 'Tailwind', 'Vite'],
+    liveUrl: 'https://crodaconsulting.com',
+    status: 'live',
+  },
+  {
+    id: 'browser-daw',
+    title: 'Browser DAW',
+    description: 'Zero-dependency audio workstation running on the Web Audio API with sub-10ms scheduling.',
+    category: 'webtool',
+    techStack: ['Web Audio API', 'React', 'Canvas'],
+    status: 'in-progress',
+  },
+  {
+    id: 'pq-security-maps',
+    title: 'Post-Quantum Security Maps',
+    description: 'Industrial blueprint visuals that explain PQC migration paths without fear-mongering.',
+    category: 'graphics',
+    techStack: ['Figma', 'Python', 'SVG'],
+    status: 'live',
+  },
+  {
+    id: 'admin-ui',
+    title: 'System Dashboard UI',
+    description: 'Data-dense cockpit interface for monitoring server health and agent status.',
+    category: 'professional',
+    techStack: ['React', 'Recharts', 'CSS Variables'],
+    status: 'live',
+  },
+  {
+    id: 'maze-visuals',
+    title: 'Algorithmic Mazes',
+    description: 'Generative visuals built with recursive backtracking and HTML5 Canvas.',
+    category: 'graphics',
+    techStack: ['TypeScript', 'Canvas', 'FFmpeg'],
+    status: 'archived',
+  },
+  {
+    id: 'kimi-protocol',
+    title: 'Kimi Protocol v7/v8',
+    description: 'Deterministic, post-quantum secure channel architecture for embedded systems.',
+    category: 'backend',
+    techStack: ['Rust', 'ML-KEM', 'Falcon', 'Ascon'],
+    status: 'in-progress',
+  },
+];
